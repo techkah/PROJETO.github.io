@@ -1,0 +1,60 @@
+
+html, body {
+    
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*---------- GLOBAL -------*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+/*Display flax serve para distribuir a linha e torná-la responsiva*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+/*---------- GLOBAL -------*/
+
+
+/*---------- NAV --------*/
+
+.nav{
+background-color:white;
+padding: 0 2rem; /*Pesquisar unidades de medidas do CSS modernas: rem,vh e em*/
+height: 0rem;
+min-height: 40vh;
+overflow: hidden;
+}
+
+.nav .nav-logo a{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    display: block;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+
+}
+
+.nav .nav-itens{
+    display: flex;
+    margin: 0;
+
+}
+
+.nav .nav-itens .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+/*---------- NAV ---------*/
+
