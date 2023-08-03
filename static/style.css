@@ -1,14 +1,17 @@
 
+
 html, body {
     
     margin: 0%;
     box-sizing: border-box;
     overflow: hidden;
+    background-color: rgb(104, 73, 177)
 }
 
 /*---------- GLOBAL -------*/
 a{
-    text-decoration: none;
+    color: aliceblue;
+    text-decoration: none; 
 }
 
 ul{
@@ -19,7 +22,6 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 /*---------- GLOBAL -------*/
 
@@ -27,7 +29,7 @@ ul{
 /*---------- NAV --------*/
 
 .nav{
-background-color:white;
+background-color:rgb(31, 7, 80);
 padding: 0 2rem; /*Pesquisar unidades de medidas do CSS modernas: rem,vh e em*/
 height: 0rem;
 min-height: 40vh;
@@ -38,11 +40,13 @@ overflow: hidden;
     font-size: 1.5rem;
     padding: 1rem 0;
     display: block;
+    font-family: abel,cursive;
+    color: aliceblue;
 }
 .nav .nav-menu{
     justify-content: space-between;
-
 }
+
 
 .nav .nav-itens{
     display: flex;
@@ -54,6 +58,7 @@ overflow: hidden;
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    
 }
 
 /*---------- NAV ---------*/
