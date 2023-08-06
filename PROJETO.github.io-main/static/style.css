@@ -37,7 +37,7 @@ overflow: hidden;
 }
 
 .nav .nav-logo a{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     padding: 1rem 0;
     display: block;
     font-family: abel,cursive;
@@ -56,18 +56,24 @@ overflow: hidden;
 
 .nav .nav-itens .nav-link{
     padding: 1.6rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     position: relative;
     top: 3%;
-    right: 80%;
+    right: 60%;
 
     
 }
 .social{
     position: absolute;
     top: 3%;
-    left: 90%;
+    left: 80%;
     transform: translate(-50% -50%);
+    margin-inline: 15px;
+    padding: 3px 30px;
+    height: 10px;
+     
+    
+    
 }
 /*---------- NAV ---------*/
 
