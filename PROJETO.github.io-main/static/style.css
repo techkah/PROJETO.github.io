@@ -5,7 +5,7 @@ html, body {
     margin: 0%;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: rgb(104, 73, 177)
+    background-color: rgb(168, 53, 202)
 }
 
 /*---------- GLOBAL -------*/
@@ -32,7 +32,7 @@ ul{
 background-color:rgb(31, 7, 80);
 padding: 0 2rem; /*Pesquisar unidades de medidas do CSS modernas: rem,vh e em*/
 height: 0rem;
-min-height: 40vh;
+min-height: 10vh;
 overflow: hidden;
 }
 
@@ -58,8 +58,16 @@ overflow: hidden;
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    top: 3%;
+    right: 80%;
+
     
 }
-
+.social{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+    transform: translate(-50% -50%);
+}
 /*---------- NAV ---------*/
 
