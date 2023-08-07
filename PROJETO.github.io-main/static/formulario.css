@@ -2,3 +2,8 @@ html, body {
 
     background-color: rgb(200, 135, 219)
 }
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
