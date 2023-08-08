@@ -11,29 +11,22 @@
         <div class="nav-menu flex-row">
             <div class="nav-logo">
         </div>
-            
-           <form action="/app.py" method="post">
-              <fieldset>
-             <legend><b>Formulario de Inscrição</b></legend>
-             <b>
-                <div class="input box">
-                <input type="nome" nome="nome"  id="nome" class="inputUser" required>
-                <label for="nome" class="labelinput">Nome Completo</label>
-                </div>
-                <br><br>
-                <div class="input box">
-                <input type="email" nome="email"  id="email" class="inputUser" required>
-                <label for="email" class="labelinput">Email</label>
-                </div>
-               <br><br>
-               <div class="input box">
-                <input type="telefone" nome="telefone"  id="telefone" class="inputUser" required>
-               <label for="telefone" class="labelinput">Telefone</label>
-               </div>
-               <div class="input box">
-                <label for="ano_nascimento"><b>Data de Nascimento:</b></label>
-                </div>
-                <div class="bnt"><input type="submit" nome="submit" id="submit"></div>
-            </form>
+           
+    <div class="box">
+        <h1>Formulário de Cadastro</h1>
+        <form method="POST" action="/formulario">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    
+    </div>
 </body>
 </html>

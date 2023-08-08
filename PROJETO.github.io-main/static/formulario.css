@@ -1,6 +1,6 @@
 html, body {
 
-    background-color: rgb(200, 135, 219)
+    background-color: rgb(168, 53, 202)
 }
 .flex-row{
     display: flex;
@@ -12,4 +12,17 @@ html, body {
     display: flex;
     width: 450px;
     background: none;
+}
+.box{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    color: white;
+    text-align: center;
 }
