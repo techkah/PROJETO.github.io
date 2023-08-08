@@ -7,3 +7,9 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.input.box{
+    position: inherit;
+    display: flex;
+    width: 450px;
+    background: none;
+}
