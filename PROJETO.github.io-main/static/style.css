@@ -36,6 +36,7 @@ min-height: 10vh;
 overflow: hidden;
 }
 
+
 .nav .nav-logo a{
     font-size: 1.9rem;
     padding: 1rem 0;
@@ -43,6 +44,7 @@ overflow: hidden;
     font-family: abel,cursive;
     color: aliceblue;
 }
+
 .nav .nav-menu{
     justify-content: space-between;
 }
@@ -68,12 +70,16 @@ overflow: hidden;
     top: 3%;
     left: 80%;
     transform: translate(-50% -50%);
-    margin-inline: 15px;
+    margin-inline: 30px;
     padding: 3px 30px;
-    height: 10px;
-     
-    
-    
+    height: 30px;  
 }
+    .Logo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% -50%);
+      width: 15px;
+      }
 /*---------- NAV ---------*/
 
