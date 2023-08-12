@@ -5,7 +5,7 @@ html, body {
     margin: 0%;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: rgb(168, 153, 202)
+    background-color: rgb(226, 218, 247)
 }
 
 /*---------- GLOBAL -------*/
@@ -29,18 +29,18 @@ ul{
 /*---------- NAV --------*/
 
 .nav{
-background-color:rgb(31, 7, 80);
-padding: 0 2rem; /*Pesquisar unidades de medidas do CSS modernas: rem,vh e em*/
+background-color: #380863;
+padding: 0 2rem;
 height: 0rem;
 min-height: 10vh;
 overflow: hidden;
 }
 
 .nav .nav-logo a{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     padding: 1rem 0;
     display: block;
-    font-family: abel,cursive;
+    font-family: sans-serif;
     color: aliceblue;
 }
 .nav .nav-menu{
@@ -54,24 +54,38 @@ overflow: hidden;
 
 }
 
-.nav .nav-itens .nav-link{
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
-    position: relative;
+.nav .nav-itens .nav-link {
+
+        padding: 1.6rem 1rem;
+        font-size: 1.6rem;
+        position: relative;
+        top: 3%;
+        right: 60%;
     
 }
+
+.social {
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    transform: translate(-50% -50%);
+    margin-inline: 15px;
+    padding: 3px 30px;
+    height: 10px;
+}
+
 
 /*---------- NAV ---------*/
 
  h1{
-    color:#3a03cf ;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #380863;
+    font-family:sans-serif;
     font-size: 35px;
     text-align: center;
  }    
  
  p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     font-size:20px;
     
  }
