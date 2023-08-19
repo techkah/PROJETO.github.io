@@ -1,4 +1,3 @@
-
 body{
      background-color: #12013f;
      color: white;
@@ -20,46 +19,7 @@ a{
      text-decoration: none;
 }
 
-
-img{
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     border: 5px solid white;
-     margin-top: 5em;
-   
-}
-
-.center{
-     text-align: center;
-}
-
-h1{
-     color: white;
-     font-size: 35px;
-     font-family: sans-serif;
-}
-
-h2{
-     color: white;
-     font-size: 32px;
-     font-family: sans-serif;
-}
-
-
-p{
-     color: white;
-     font-size: 20px;
-     font-family: sans-serif;
-     width: 50%;
-     height: 50%;
-     left: 50%;
-     right: 50%;
-     
-}
-
-
-    .botao:hover{
+.botao:hover{
      background: #ccbbff;
      font-size: 19px;
     }
@@ -76,4 +36,3 @@ p{
     background: #ccbbff;
     color: #12013f;
     }
-   

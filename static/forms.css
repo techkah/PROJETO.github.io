@@ -5,13 +5,13 @@
 
 #titulo{
     font-family:sans-serif;
-    color: #380863;
+    color: #ffffff;
     margin-left: 7%;
 }
 
 #subtitulo{
     font-family:sans-serif;
-    color: #380863;
+    color:white;
     margin-left: 10%;
 
 }
@@ -21,10 +21,10 @@ fieldset{
 }
 
 body{
-    background-color: rgb(226, 218, 247);
+    background-color: #12013f;
     font-family: sans-serif;
     font-size: 1em;
-    color: #503999;
+    color: whitesmoke;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -40,7 +40,7 @@ input, select, texarea,button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: #503999;
+    color:  whitesmoke;
     display: block;
 }
 
@@ -66,12 +66,12 @@ fieldset .campo{
 
 .botao{
     font-size: 1em;
-    background: #59429d;
+    background: #1d0446;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px #000020;
+    box-shadow: 2px 2px 2px #7d7da8;
     text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
     top: 95%;
     left: 50%;
