@@ -23,11 +23,12 @@ fieldset{
 body{
     background-color: #12013f;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
     color: whitesmoke;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+    display: block;
 }
 
 input, select, texarea,button{
