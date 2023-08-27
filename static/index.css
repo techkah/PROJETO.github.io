@@ -1,39 +1,21 @@
 
-img.logo
-{
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     border: 5px solid white;
-     margin-top: 5em;
-   
-}
-
 .center{
      text-align: center;
 }
 
-h3{
-     text-align: left;
-     color: white;
-     font-size: 45px;
- }
+h3{text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+}
 
 p{
+     position: absolute;
+     width: 50%;
+     height: 60%;
+     left: 30%;
      color: white;
      font-size: 23px;
      font-family: sans-serif;
-     width: 50%;
-     height: 50%;
-     left: 50%;
-     right: 50%;
      
-}
-   
-    img.banner{
-     height: 100%;
-     width: 100%;
-     border-radius: 0%;
-     border: none;
-
-    }
+ }

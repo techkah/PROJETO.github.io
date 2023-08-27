@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Feedback do Cadastro</h1>
+    {% if mensagem %}
+    <p>{{ mensagem }}</p>
+    {% else %}
+    <p>Nenhum feedback disponível.</p>
+    {% endif %}
+    <a href="/">Voltar à página inicial</a>
+</body>
+</html>

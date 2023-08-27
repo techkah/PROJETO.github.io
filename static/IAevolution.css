@@ -11,15 +11,12 @@ h1{
     text-align: center;
 }
 
-h3{
+h6{
     text-align: left;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     font-family: sans-serif;
 }
-
-
-
 
 p{
     width: 50%;
@@ -30,15 +27,18 @@ p{
     font-family: sans-serif;   
 }
 
+.img1{
+   display: flex;
+   width: 600px;
+}
 
-.ia{
+.img2{
     display: flex;
-    border: none;
-    border-radius: none;
-}
+    width: 400px;
+    border:#ccbbff;
+ }
 
-img{
-     width: 50%;
-     height: 50%;
-}
-
+.img3{
+    display: flex;
+    width: 400px;
+ }
